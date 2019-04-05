@@ -1,0 +1,17 @@
+{
+  "name": "block-town",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A very blocky sample application",
+  "main": "index.js",
+  "scripts": {
+    "start": "bin/start"
+  },
+  "author": "snyk.io",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "fast-safe-stringify": "^2.0.6",
+    "lodash": "^4.17.11"
+  }
+}

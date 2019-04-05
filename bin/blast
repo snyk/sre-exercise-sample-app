@@ -1,0 +1,9 @@
+#!/bin/bash
+
+BLOCK_TOWN_SERVER=${1:-"http://localhost:3000"}
+
+ab -n 50 -c 20 ${BLOCK_TOWN_SERVER}/
+ab -n 50 -c 20 ${BLOCK_TOWN_SERVER}/wait-around
+ab -n 50 -c 20 ${BLOCK_TOWN_SERVER}/huge-object
+ab -n 50 -c 20 ${BLOCK_TOWN_SERVER}/huge-object-size
+ab -n 50 -c 20 ${BLOCK_TOWN_SERVER}/slow-regex

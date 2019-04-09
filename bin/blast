@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/sh
 
 BLOCK_TOWN_SERVER=${1:-"http://localhost:3000"}
 

@@ -1,4 +1,4 @@
-FROM nodesource/nsolid:dubnium-latest
+FROM node:10-slim
 
 MAINTAINER Snyk Ltd
 

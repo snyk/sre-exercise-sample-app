@@ -10,7 +10,7 @@
   "author": "snyk.io",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "fast-safe-stringify": "^2.0.6",
     "lodash": "^4.17.11"
   }

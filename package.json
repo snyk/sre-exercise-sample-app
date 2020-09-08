@@ -12,6 +12,6 @@
   "dependencies": {
     "express": "^4.16.4",
     "fast-safe-stringify": "^2.0.6",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.20"
   }
 }
